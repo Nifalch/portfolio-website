@@ -327,8 +327,8 @@ main {
 }
 
 .avatar-box {
-  background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+  /* background: var(--bg-gradient-onyx); */
+  border-radius: 50px;
 }
 
 .info-content .name {
@@ -1875,4 +1875,12 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+}
+
+a {
+  color: var(--vegas-gold)
+}
+
+a:hover {
+  color: white
 }
